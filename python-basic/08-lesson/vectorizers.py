@@ -57,8 +57,3 @@ class CountVectorizer(BaseModel):
             )
             raise CountVectorizerError(exception_text)
         return self.feature_names
-
-
-if __name__ == "__main__":
-    model = CountVectorizer()
-    print(model.fit_transform.__doc__)
