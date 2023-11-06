@@ -1,0 +1,15 @@
+test_api_error (tests_what_is_year_now.TestWhatIsYearNow)
+Test unexpected error ... ok
+test_invalid_format (tests_what_is_year_now.TestWhatIsYearNow)
+Test invalid format ... ok
+test_main (tests_what_is_year_now.TestWhatIsYearNow) ... 2019
+ok
+test_year_format_DMY (tests_what_is_year_now.TestWhatIsYearNow)
+Test year format in DMY ... ok
+test_year_format_YMD (tests_what_is_year_now.TestWhatIsYearNow)
+Test year format in YMD ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

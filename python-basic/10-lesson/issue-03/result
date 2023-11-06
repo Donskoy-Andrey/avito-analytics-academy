@@ -1,0 +1,7 @@
+test_fit_transform (tests_ohe.TestFitTransform) ... ok
+test_fit_transform_raises_error (tests_ohe.TestFitTransform) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
