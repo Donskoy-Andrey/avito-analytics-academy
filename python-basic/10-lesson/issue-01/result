@@ -1,0 +1,40 @@
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode('Hello World')
+Expecting:
+    '.... . .-.. .-.. ---
+     .-- --- .-. .-.. -..'
+ok
+Trying:
+    encode('123')
+Expecting:
+    '.---- ..--- ...--'
+ok
+Trying:
+    encode('')
+Expecting:
+    ''
+ok
+Trying:
+    encode('Very long long long long text') #doctest: +ELLIPSIS
+Expecting:
+    '...- . .-. -.-- ... - . -..- -'
+ok
+Trying:
+    encode('Русские буквы') #doctest: +IGNORE_EXCEPTION_DETAIL
+Expecting:
+    Traceback (most recent call last):
+    KeyError: 'Р'
+ok
+2 items had no tests:
+    issue_01
+    issue_01.decode
+1 items passed all tests:
+   6 tests in issue_01.encode
+6 tests in 3 items.
+6 passed and 0 failed.
+Test passed.
